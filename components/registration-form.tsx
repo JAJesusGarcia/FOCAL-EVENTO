@@ -3,10 +3,11 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+
 import { CheckCircle2, Loader2 } from "lucide-react"
+import { Label } from "@radix-ui/react-label"
+import { Input } from "./ui/input"
+import { Button } from "./ui/button"
 
 interface FormData {
   name: string
